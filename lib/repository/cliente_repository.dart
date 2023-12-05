@@ -1,7 +1,11 @@
 import 'dart:async';
-import 'package:pedido/model/cliente.dart';
-import 'package:pedido/rest/cliente_rest.dart';
 
+import 'package:pdd/model/cliente.dart';
+import 'package:pdd/rest/cliente_rest.dart';
+
+/*import 'package:pedido/model/cliente.dart';
+import 'package:pedido/rest/cliente_rest.dart';
+*/
 class ClienteRepository {
   final ClienteRest api = ClienteRest();
   Future<Cliente> buscar(int id) async {

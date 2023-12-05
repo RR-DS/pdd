@@ -1,7 +1,8 @@
 /*import 'dart:html';
 import 'dart:io';*/
 import 'package:http/http.dart' as http;
-import 'package:pedido/model/cliente.dart';
+import 'package:pdd/model/cliente.dart';
+
 import 'api.dart';
 
 class ClienteRest {
