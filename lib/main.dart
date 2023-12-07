@@ -64,7 +64,7 @@ class AppDrawer extends StatelessWidget {
               icon: Icons.add,
               text: 'Inserir Cleinte',
               onTap: () =>
-                  Navigator.pushReplacementNamed(context, Routes.insert)),
+                  Navigator.pushReplacementNamed(context, Rouflutter tes.insert)),
           Divider(),
           _createDrawerItem(
               icon: Icons.list,
@@ -117,3 +117,6 @@ Widget _createDrawerItem(
     onTap: onTap,
   );
 }
+
+
+// COMMIT DO DIA
